@@ -5,8 +5,6 @@ var music = document.getElementById("bgMusic"); // Get the audio element
 
 function showImage() {
     myImage.setAttribute("src", imageArray[imageIndex]);
-    myImage.style.width = "45%";  // Set the width to 45% of its container
-    myImage.style.height = "auto"; // Maintain aspect ratio
     myTxt.innerHTML = txtArray[imageIndex];
     imageIndex++;
     if (imageIndex >= len) {
@@ -27,7 +25,7 @@ function play() {
     }
 
     // Set image size when play starts
-    myImage.style.width = "45%";  // Adjust width
+    myImage.style.width = "40%";  // Adjust width
     myImage.style.height = "auto"; // Maintain aspect ratio
 
     flag = 1 - flag;
