@@ -26,6 +26,10 @@ function play() {
         clearInterval(showImageInterval);
     }
 
+    // Set image size when play starts
+    myImage.style.width = "45%";  // Adjust width
+    myImage.style.height = "auto"; // Maintain aspect ratio
+
     flag = 1 - flag;
     document.getElementById("typeDiv").style.opacity = flag;
     document.getElementById("imgTxt").style.opacity = 1 - flag;
