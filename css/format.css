@@ -113,13 +113,11 @@
 	height: 50%;
 }
 
-#img{
-	display: block;
-	left: 0;
-	right: 0;
-	margin: auto;
-	width: auto;
-	height: 100%;
+#img {
+    width: 45%; 
+    height: auto;
+    display: block;
+    margin: auto;
 }
 
 #Txt{
